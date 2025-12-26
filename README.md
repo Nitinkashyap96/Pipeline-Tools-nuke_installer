@@ -61,21 +61,24 @@ Tested on with Nuke (12+ / 13+ / 14+ / 15+ / 16+ )
 
 
 
+<img width="644" height="385" alt="Screenshot 2025-12-25 014550" src="https://github.com/user-attachments/assets/48cbed18-0584-4ff1-ba27-8d7ea634661a" />
+
+<img width="587" height="426" alt="Screenshot 2025-12-25 015223" src="https://github.com/user-attachments/assets/642cb15b-cb41-4e6a-b128-c7507f1cc58b" />
+
+<img width="591" height="273" alt="Screenshot 2025-12-25 015243" src="https://github.com/user-attachments/assets/bc55df18-25c8-4122-a0fb-196e86a722be" />
 
 
-<img width="644" height="385" alt="Screenshot 2025-12-25 014550" src="https://github.com/user-attachments/assets/c48d9f0f-211f-4db0-9f06-a93a53b03d97" />
-<img width="587" height="426" alt="Screenshot 2025-12-25 015223" src="https://github.com/user-attachments/assets/50da5301-e2d4-46d1-a376-deacfd365549" />
-<img width="591" height="273" alt="Screenshot 2025-12-25 015243" src="https://github.com/user-attachments/assets/b6ab3548-0fbb-4d58-944b-0d8006b8b82d" />
+
+
+
 
 #  ^^^ Tools install done  Sound Beep ^^^
-
-<img width="510" height="60" alt="Screenshot 2025-12-25 015338" src="https://github.com/user-attachments/assets/4eb543ee-062a-42e4-920e-46fc1d46196c" />
+<img width="510" height="60" alt="Screenshot 2025-12-25 015338" src="https://github.com/user-attachments/assets/b1e6188a-a8e6-4cfb-bcdc-5d2735b67178" />
 
 # automatic  folder geneanet
 
-<img width="647" height="191" alt="Screenshot 2025-12-25 015407" src="https://github.com/user-attachments/assets/a9585c72-9122-4d23-aba5-c6d801708ca3" />
+<img width="647" height="191" alt="Screenshot 2025-12-25 015407" src="https://github.com/user-attachments/assets/14338ddb-881e-4509-8079-1e3ac3f2c1a4" />
 
-<img width="773" height="71" alt="Screenshot 2025-12-25 020118" src="https://github.com/user-attachments/assets/921d09c0-b4c1-4e3a-a526-0be045d7e3f8" />
-
+<img width="773" height="71" alt="Screenshot 2025-12-25 020118" src="https://github.com/user-attachments/assets/22606726-1aee-45c6-a20a-5ccad5062f6f" />
 
 # Nuke init.py Automatic path add
