@@ -3,7 +3,7 @@ import os
 import datetime
 
 
-version= "v2.0.0"
+version= "v1.2.1"
 update_date= "25 December 2025"
 
 
@@ -40,14 +40,15 @@ github_menu.addCommand(
 # Optionally, add author info/help:
 github_menu.addCommand(
     "About Installer",
-    "nuke.message('Created by: Nitin Kashyap\\nPipelineCore_nuke_installer for Nuke')",
+    "nuke.message('<div style=\"color:#00FF00; font-weight:bold; font-size:35px; text-align:center;\">Created by: Nitin Kashyap<br>PipelineCore_nuke_installer for Nuke</div>')",
 )
 
 
 
 
 
-license ="Copyright (C) 2025 by Nitin Kashyap,All rights reserved."
 
+license ="Copyright (C) 2025 by Nitin Kashyap,All rights reserved."
 nuke.tprint(f"PipelineCore_nuke_installer_2 {version},  build  {update_date}. \n{license}")
+
 
