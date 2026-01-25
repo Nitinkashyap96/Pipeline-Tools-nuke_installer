@@ -763,18 +763,32 @@ class GithubNukeInstaller(QDialog):
 
             subprocess.Popen(cmd)
 
+        # else:  # Linux
+        #     cmd = ["nukex" if is_nukex else "nuke"]
+
+        #     if reopen_script:
+        #         cmd.append(script_path)
+
+        #     subprocess.Popen(cmd)
+
+        # # Exit current Nuke safely
+        # nuke.scriptExit()
+
         else:  # Linux
-            cmd = ["nukex" if is_nukex else "nuke"]
+                    # Instead of just "nukex", use the full path provided by Nuke
+                    if exe_path and os.path.exists(exe_path):
+                        cmd = [exe_path]
+                    else:
+                        # Fallback to common naming if exe_path is missing
+                        cmd = ["nukex" if is_nukex else "nuke"]
 
-            if reopen_script:
-                cmd.append(script_path)
+                    if is_nukex and "--nukex" not in cmd:
+                        cmd.append("--nukex")
 
-            subprocess.Popen(cmd)
+                    if reopen_script:
+                        cmd.append(script_path)
 
-        # Exit current Nuke safely
-        nuke.scriptExit()
-
-
+                    subprocess.Popen(cmd)
 
 
 
@@ -1054,6 +1068,7 @@ def show_installer():
     dlg.exec_() #if PYSIDE_VERSION == 2 else dlg.exec()
 
 #show_installer()
+
 
 
 
